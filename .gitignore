@@ -102,3 +102,4 @@ $RECYCLE.BIN/
 ############################################################
 /backup.properties
 *.gz
+/03Concurrent/.idea/
