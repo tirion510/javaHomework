@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.tirion.config.SchoolBaseAutoConfiguration,\
+com.tirion.config.SchoolContext
