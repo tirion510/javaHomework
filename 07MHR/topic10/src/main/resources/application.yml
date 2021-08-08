@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     jdbc-url: jdbc:mysql://192.168.201.46:3306/venus?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
-    username: cy_dev
-    password: B131A21odadki313
+    username: XXX
+    password: XXX
     type: com.zaxxer.hikari.HikariDataSource
     hikari.minimum-idle: 5
     hikari.maximum-pool-size: 15
@@ -23,16 +23,16 @@ sharding:
         type: com.zaxxer.hikari.HikariDataSource
         driverClassName: com.mysql.jdbc.Driver
         jdbcUrl: jdbc:mysql://192.168.201.46:3306/venus?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
-        username: cy_dev
-        password: B131A21odadki313
+        username: XXX
+        password: XXX
         #最大连接数
         maxPoolSize: 20
       db-test1: # 配置从库
         type: com.zaxxer.hikari.HikariDataSource
         driverClassName: com.mysql.jdbc.Driver
         jdbcUrl: jdbc:mysql://192.168.201.46:3306/cbi?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
-        username: cy_dev
-        password: B131A21odadki313
+        username: XXX
+        password: XXX
         #最大连接数
         maxPoolSize: 20
     config:

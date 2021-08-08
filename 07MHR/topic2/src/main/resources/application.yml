@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.201.46:3306/venus?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
-    username: cy_dev
-    password: B131A21odadki313
+    username: XXX
+    password: XXX
     type: com.zaxxer.hikari.HikariDataSource
     hikari.minimum-idle: 5
     hikari.maximum-pool-size: 15

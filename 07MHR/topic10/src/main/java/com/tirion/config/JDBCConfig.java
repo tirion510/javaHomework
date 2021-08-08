@@ -19,8 +19,8 @@ public class JDBCConfig {
 		HikariConfig configuration = new HikariConfig();
 		configuration.setDriverClassName("com.mysql.jdbc.Driver");
 		configuration.setJdbcUrl("jdbc:mysql://192.168.201.46:3306/venus?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull");
-		configuration.setUsername("cy_dev");
-		configuration.setPassword("B131A21odadki313");
+		configuration.setUsername("XXX");
+		configuration.setPassword("XXXX");
 		HikariDataSource hikariDataSource = new HikariDataSource(configuration);
 		return hikariDataSource;
 	}
