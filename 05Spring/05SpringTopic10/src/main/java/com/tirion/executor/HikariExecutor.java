@@ -1,4 +1,4 @@
-package com.tirion.work;
+package com.tirion.executor;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.beans.factory.annotation.Autowired;

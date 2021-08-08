@@ -1,4 +1,4 @@
-package com.tirion.work;
+package com.tirion.executor;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,6 +1,6 @@
 package com.tirion.test;
 
-import com.tirion.work.HikariExecutor;
+import com.tirion.executor.HikariExecutor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;

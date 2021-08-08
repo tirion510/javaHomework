@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.201.46:3306/venus?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: cy_dev
+    password: B131A21odadki313
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari.minimum-idle: 5
+    hikari.maximum-pool-size: 15
+    hikari.auto-commit: true
+    hikari.idle-timeout: 30000
+    hikari.pool-name: DatebookHikariCP
+    hikari.max-lifetime: 1800000
+    hikari.connection-timeout: 30000
+    hikari.connection-test-query: SELECT 1
